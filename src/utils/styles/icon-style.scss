@@ -1,0 +1,20 @@
+@import 'styles/main.scss';
+
+.Icon{
+  // display: inline-block;
+  // width: 20px;
+  // height: 20px;
+  background-color: wheat;
+  border-radius: 50%;
+  // // fill:$accent-primary-color;
+  // color: $accent-primary-color;
+  cursor: pointer;
+
+  margin: 20px 30px;
+  width: 20px;
+  height: 20px;
+fill:$accent-secondary-color;
+fill:red;
+color: red;
+outline: 2px solid red;
+}

@@ -1,0 +1,36 @@
+{
+  "head": "Fire safety solutions",
+  "subhead": [
+    "fire alarm",
+    "fire alarm systems",
+    "solutions for the management of evacuation of people"
+  ],
+  "pain": "One of the most important security systems of the building, which is responsible for the timely notification of the Ministry of Emergency Services about fires in the premises, as well as notifies people about the fire and shows the evacuation routes. In addition, to ensure the maximum safety of people, the system takes over the management of other systems of the building at the time of fire",
+  "solutions": [
+    "Solutions for fire alarm systems",
+    "Fire alarm systems",
+    "Management systems for the evacuation of people during a fire"
+  ],
+  "details": [
+    "Our team of specialists works with all the equipment of fire alarm systems certified in Ukraine and provides:",
+    [
+      " - organization of voice notification systems in accordance with the regulatory requirements of CO-3, CO-4 by automatic activation of notification messages during a fire and manual duplication of activation of notifications by the operator",
+      " - acoustic calculation of premises",
+      " - equipment selection",
+      " - floor intercoms with dispatcher"
+    ],
+    "During a fire, due to poor visibility due to smoke, there is a need for additional illumination of the evacuation routes. This system is automatically activated when a fire is detected. Competencies of our specialists in this area:"
+  ],
+  "texts1": [
+    " - visit of the engineer for examination",
+    " - implementation of project documentation, examination",
+    " - installation, work with equipment of domestic and foreign manufacturers",
+    " - maintenance of mounted systems"
+  ],
+  "texts2": ["Voice notification systems", "Light and sound warning systems"],
+  "texts3": [
+    " - development of evacuation plans as part of project documentation",
+    " - equipment Selection",
+    " - assembling"
+  ]
+}

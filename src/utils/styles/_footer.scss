@@ -1,0 +1,82 @@
+
+.footer{
+  // position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  margin: 20px auto;
+  width: 100%;
+  font-size: 12px;
+  color: $text-secondary-color;
+  background-color: transparent;
+}
+
+.footerItems{
+  text-align: center;
+}
+
+.footerContent{
+  display: flex;
+  align-items: center;
+  margin: 20px auto; 
+  color: $accent-secondary-color;
+  &:hover{
+    color: $accent-primary-color;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 250ms linear;
+
+  }
+}
+
+.footerIcons{
+  margin: 10px 10px;
+  width: 12px;
+  height: 12px;
+  fill:$accent-secondary-color;
+  &:hover{
+    transform: scale(1.1);
+    fill: $accent-primary-color;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: $mobile) {
+  .footer{
+    flex-direction: row;
+    font-size: 14px;
+  } 
+  .footerIcons{
+    display: block;
+    width: 15px;
+    height: 15px;
+    margin: 10px 10px;
+  }
+}
+  
+
+@media screen and (min-width: $tablet) {
+  .footer{
+   font-size: 16px;
+ } 
+ .footerIcons{
+  width: 20px;
+  height: 20px;
+  margin: 15px 10px;
+  } 
+}
+
+@media screen and (min-width: $desktop) {
+  .footer{
+    font-size: 20px;
+  }
+  .footerIcons{
+    width: 20px;
+    height: 20px;
+    margin: 15px 15px;
+  }
+}
+

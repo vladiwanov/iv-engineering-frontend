@@ -1,0 +1,14 @@
+.contacts{
+  display: flex;
+  align-items: center;
+  margin: auto; 
+  color: $accent-secondary-color;
+  // outline: p1x solid red;
+  &:hover,
+  &:focus{
+    color: $accent-primary-color;
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+}
+

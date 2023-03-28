@@ -1,0 +1,48 @@
+@import 'utils/styles/main.scss';
+// @import 'utils/styles/closeButtonAnimation';
+
+.buttonClose{
+  position: fixed;
+  top:115px;
+  margin: 5px;
+  padding: 10px 10px;
+  background-color: transparent;
+  // color: $accent-secondary-color;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  z-index: 100;
+  // outline: 1px solid red;
+  animation: animate200 2000ms $timing-function forwards;
+}
+
+.iconClose{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  fill:$accent-primary-color;
+} 
+
+
+
+@media screen and (min-width: $mobile) {
+  .iconClose{
+    width: 16px;
+    height: 16px;
+  } 
+}
+  
+
+@media screen and (min-width: $tablet) {
+  .iconClose{
+    width: 20px;
+    height: 20px;
+  } 
+}
+
+@media screen and (min-width: $desktop) {
+  .iconClose{
+    width: 30px;
+    height: 30px;
+  }
+}

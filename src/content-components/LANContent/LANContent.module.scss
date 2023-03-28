@@ -1,0 +1,51 @@
+@import 'utils/styles/main.scss';
+@import 'utils/styles/items';
+@import 'utils/styles/heads';
+@import 'utils/styles/pain';
+@import 'utils/styles/content-components-styles/images';
+@import 'utils/styles/content-components-styles/content';
+@import 'utils/styles/content-components-styles/works';
+@import 'utils/styles/content-components-styles/componentText';
+
+.lan {
+  box-sizing: content-box;
+  width: 95%;
+  height: auto;
+  text-align: center;
+  margin: auto;
+  color: $text-primary-color;
+}
+
+.lanList {
+  text-align: start;
+  list-style: circle;
+}
+
+.contentLanList{
+ display: block;
+ background-image: linear-gradient(
+  to right,
+   rgba(0, 0, 0, 0.9),
+  rgba(0, 0, 0, 0.9)
+), url('../../utils/db/img/LAN/LAN-1opt.jpg') ;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+
+@media screen and (min-width: $mobile) {
+
+
+}
+
+@media screen and (min-width: $tablet) {
+  .contentLanList{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: $desktop) {
+
+}

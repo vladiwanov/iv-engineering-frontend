@@ -1,0 +1,65 @@
+@import 'utils/styles/main';
+@import 'utils/styles/heads';
+@import 'utils/styles/items';
+@import 'utils/styles/animation';
+@import 'utils/styles/pain';
+@import 'utils/styles/content-components-styles/images';
+@import 'utils/styles/content-components-styles/content';
+@import 'utils/styles/content-components-styles/works';
+@import 'utils/styles/content-components-styles/componentText';
+
+
+.about {
+  box-sizing: border-box;
+  position: relative;
+  z-index: -1;
+  display: block;
+  margin:auto;
+  box-sizing: content-box;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  opacity: 0;
+  // background-color: rgba(255, 255, 180, 0.9);
+//   padding-bottom: 220px; //! ‼️ временно , пока не работает кнопка подписки
+}
+
+.aboutContent{
+max-width: 95%;
+padding: 0;
+color: $accent-primary-color;
+line-height: 1.5;
+font-weight: 300;
+text-align: start;
+text-indent: 1%; // отступ первой строки абзаца
+
+}
+
+.aboutDirectionList{
+  display: block;
+  text-align: center;
+  list-style: circle;
+  padding-left: 20px;
+}
+
+.aboutDirectionListItem{
+  text-align: start;
+}
+
+@media screen and(min-width:$mobile) {
+  .aboutDirectionList{
+    padding-left: 30px;
+  }
+ 
+}
+
+@media screen and(min-width:$tablet) {
+  .aboutDirectionList{
+    padding-left: 50px;
+  }
+}
+@media screen and(min-width:$desktop) {
+  .aboutDirectionList{
+    padding-left: 100px;
+  }
+}

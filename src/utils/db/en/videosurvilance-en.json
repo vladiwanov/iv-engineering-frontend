@@ -1,0 +1,31 @@
+{
+  "head": "Video surveillance solutions",
+  "subhead": [
+    "We offer solutions in directions:",
+    "within",
+    "Vendors we cooperate with"
+  ],
+  "pain": "by far the most informative system in the technical security direction. \n We use more opportunities thanks to technologies, special algorithms and artificial intelligence",
+  "solutions": [
+    "security and technological television:",
+    "Video analytics, development of solutions based on situational platforms:"
+  ],
+  "works": [
+    "Design documentation",
+    "Installation",
+    "Testing",
+    "Warranty",
+    "Service"
+  ],
+  "content": [
+    [
+      " - creating of various architectures of video surveillance systems (security and technological television)",
+      " - supply of equipment",
+      " - installation and configuration of systems for local and distributed objects with a single center for processing and storing information"
+    ],
+    [
+      " - development of solutions for face and number recognition systems using artificial intelligence",
+      " - integration of various video analytics systems and other security systems with video surveillance systems into a single information structure based on situational platforms"
+    ]
+  ]
+}

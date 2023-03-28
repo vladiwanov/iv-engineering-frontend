@@ -1,0 +1,39 @@
+.heroTitle{
+padding-top: 30px;
+margin:  auto ;
+// font-family: 'StyreneAWeb', sans-serif;
+}
+
+
+.heroSubtitle{
+  margin-top: 10px;
+}
+
+@media screen  and (min-width:$mobile){
+  .heroTitle{
+    margin-bottom: 15px;
+  }
+  .heroSubtitle{
+    margin-bottom: 70px;
+  }
+  
+}
+
+@media screen  and (min-width:$tablet){
+  .heroTitle{
+    margin-bottom: 20px;
+  }}
+  .heroSubtitle{
+    margin-bottom: 70px;
+  }
+
+  @media screen  and (min-width:$desktop){
+  .heroTitle{
+    margin-bottom: 10px;
+  }
+.heroSubtitle{
+  margin-bottom: 100px;
+}
+
+  
+}

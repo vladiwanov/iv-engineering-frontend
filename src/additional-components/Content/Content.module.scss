@@ -1,0 +1,67 @@
+@import 'utils/styles/main.scss';
+@import 'utils/styles/animation';
+@import 'utils/styles/contentItem';
+@import 'utils/styles/contentTitle';
+
+.content{
+  display: block;
+  justify-content: space-around;
+  align-items:stretch;
+  // margin-top: 50px;
+  // height: auto;
+      padding-bottom: 30px;
+}
+
+@media screen and  (min-width:$mobile){
+  .content{
+    display: flex;
+    justify-content: space-around;
+    align-items:baseline;
+    flex-wrap: wrap;
+
+  }
+  }
+  @media screen and  (min-width:$tablet){
+  .content{
+    display: flex;
+  margin-top: 100px;
+        padding-bottom: 50px;
+  }
+  }
+  @media screen and  (min-width:$desktop){
+  .content{
+    margin-top: 150px;
+        padding-bottom: 220px;
+  }
+  }
+
+
+
+// ???????????????????????????
+
+    // .datatransfer {
+    //   position: relative;
+    //   box-sizing: content-box;
+    //   // width: 100%;
+    //   // height: 100%;
+    //   // overflow: hidden;
+    //   padding-bottom: 30px;
+    // }
+  
+    // @media screen and (min-width:$mobile) {
+    //   .datatransfer {
+    //     padding-bottom: 30px;
+    //   }
+    // }
+  
+    // @media screen and (min-width:$tablet) {
+    //   .datatransfer {
+    //     padding-bottom: 50px;
+    //   }
+    // }
+  
+    // @media screen and (min-width:$desktop) {
+    //   .datatransfer {
+    //     padding-bottom: 220px;
+    //   }
+    // }

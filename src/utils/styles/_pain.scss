@@ -1,0 +1,27 @@
+.pain {
+  font-family: 'StyreneALC', sans-serif;
+  font-size: 12px;
+  color: $accent-primary-color;
+}
+
+.painArticle {
+  text-align: start;
+}
+
+@media screen and (min-width: $mobile) {
+  .pain {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: $tablet) {
+  .pain {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: $desktop) {
+  .pain {
+    font-size: 20px;
+  }
+}

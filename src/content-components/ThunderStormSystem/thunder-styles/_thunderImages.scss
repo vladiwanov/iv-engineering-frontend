@@ -1,0 +1,34 @@
+.thunderImages {
+  // outline: 1px red solid;
+  display: block;
+  width: 50%;
+  height: auto;
+  margin: 10px auto;
+  padding: 10px;
+  border-left: $accent-secondary-color 1px solid;
+}
+
+
+
+@media screen and (min-width: $mobile) {
+  .thunderImages {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: $tablet) {
+  .thunderImages {
+    width: 40%;
+    height: auto;
+    margin: 15px auto;
+  }
+}
+
+@media screen and (min-width: $desktop) {
+  .thunderImages {
+    width: 40%;
+    height: auto;
+    margin: 25px auto;
+  }
+}

@@ -1,0 +1,35 @@
+
+.items{
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 12px;
+  // font-family: 'Montserrat';
+  font-family: 'StyreneAWeb';
+  font-weight: 400;
+  // outline: 2px green solid;
+}
+
+
+.itemsList {
+  text-align: start;
+  list-style: circle;
+}
+
+
+
+
+@media screen and (min-width:$mobile) {
+  .items{
+  font-size: 14px;
+}}
+
+@media screen and (min-width:$tablet) {
+ .items{
+  font-size: 16px;
+}}
+
+
+@media screen and (min-width:$desktop) {
+ .items{
+  font-size: 18px;
+}}

@@ -1,0 +1,97 @@
+@import 'utils/styles/main.scss';
+@import 'utils/styles/hero-title.module';
+@import 'utils/styles/animation';
+
+
+.hero{
+  position: relative;
+  box-sizing: content-box;
+  // margin-top: 100px;
+  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heroMenu{
+  display: block;
+  // height: 100%;
+  text-align: center;
+  margin: auto;
+  padding: 0;
+}
+
+.buttonContainer{
+  display: block;
+  text-align: center;
+  margin: auto;
+// width: auto;
+}
+
+.heroButton{
+  display: inline-block;
+  margin-bottom: 20px; 
+  border:none;
+  text-decoration: none;
+  background-color: transparent;
+  opacity: 0;
+  // outline: 1px solid green;
+  color: $text-secondary-color;
+  &:hover,
+  &:focus{
+    cursor: pointer;
+    transform: scale(1.2);
+    color:$accent-primary-color;
+  transition: transform 250ms $timing-function;
+  }
+}
+
+
+.title{
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+  margin: auto;
+  width: 100%;
+  color: $accent-primary-color;
+}
+
+.img{
+  width: 100%;
+  height: auto;
+  opacity:0.3;
+}
+
+
+
+@media screen and (min-width: $mobile) {
+  .hero{
+    // margin-top: 50px;
+    padding-top: 50px;
+
+  }
+ 
+}
+  
+
+@media screen and (min-width: $tablet) {
+  .hero{
+    // margin-top: 100px;
+    padding-top: 100px;
+
+  }
+  .heroMenu{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.heroButton{
+    margin-bottom: 50px; }
+}
+
+@media screen and (min-width: $desktop) {
+  .hero{
+    // margin-top: 200px;
+    padding-top: 200px;
+  }
+}

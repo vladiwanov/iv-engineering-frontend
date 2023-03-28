@@ -1,0 +1,21 @@
+@import 'utils/styles/main';
+
+
+.alertMessage {
+    margin: 30px auto;
+    text-align: center;
+    font-family: 'GothamPro', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: red;
+}
+
+.successMessage{
+    margin:auto;
+    text-align: center;
+    font-size:24px;
+    color: $accent-primary-color;
+    font-family: 'GothamPro', sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+}

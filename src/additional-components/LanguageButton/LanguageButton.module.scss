@@ -1,0 +1,66 @@
+@import 'utils/styles/main.scss';
+.lang {
+  position: absolute;
+  z-index: 50;
+  right: 0;
+  top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  // width: 30px;
+}
+
+.selectButton {
+  display: block;
+  border: none;
+  background-color: transparent;
+  margin: 5px 0px;
+  // width: 50px;
+  // height: 20px;
+  font-size: 10px;
+  color: $accent-primary-color;
+  color: yellow;
+  cursor: pointer;
+  &:hover {
+    color: $accent-secondary-color;
+    transform: scale(1.2);
+  }
+  &:disabled {
+    opacity: 0;
+    cursor: default;
+  }
+}
+
+
+@media screen and (min-width: $mobile) {
+  .lang{
+    margin: 10px;
+    // width: 50px;
+}
+  
+  .selectButton {
+  font-size: 10px;
+  }
+}
+
+@media screen and (min-width: $tablet) {
+  .lang{
+    margin: 15px;
+    // width: 150px;
+}
+  
+  .selectButton {
+font-size: 14px;
+  }
+}
+
+@media screen and (min-width: $desktop) {
+  .lang{
+    margin: 20px;
+    // width: 200px;
+
+  }
+
+  .selectButton {
+  font-size: 14px;
+  }
+}

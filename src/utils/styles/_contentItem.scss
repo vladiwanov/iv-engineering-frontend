@@ -1,0 +1,46 @@
+@import '../../utils/styles/main.scss';
+
+.contentItem{
+// font-family: 'StyreneALC-Light';
+// font-family: 'StyreneALC';
+  font-family: 'GothamPro';
+font-size: 12px;
+padding: 0;
+list-style: none;
+text-align: center;
+text-decoration: none;
+color: $text-secondary-color;
+margin: 5% 50px;
+opacity: 0;
+// outline: 1px solid red;
+&:hover{
+  transform: scale(1.2);
+  color: $accent-primary-color;
+  cursor: pointer;
+}
+}
+
+@media screen and  (min-width:$mobile){
+.contentItem{
+  max-width: 300px;
+  font-size: 14px;
+  margin: 10%  50px;
+
+
+}
+}
+@media screen and  (min-width:$tablet){
+.contentItem{
+  max-width: 300px;
+  font-size: 18px;
+  margin: 20%  50px;
+
+}
+}
+@media screen and  (min-width:$desktop){
+.contentItem{
+  max-width: 500px;
+  font-size: 20px;
+  margin: 10%  100px;
+}
+}

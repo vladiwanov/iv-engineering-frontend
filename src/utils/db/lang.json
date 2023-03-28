@@ -1,0 +1,5 @@
+[
+  {"id":"L1","language":"RU", "dispatchAction":"onSelectRuLang"},
+  {"id":"L2","language":"EN", "dispatchAction":"onSelectEnLang"},
+  {"id":"L3","language":"UA", "dispatchAction":"onSelectUaLang"}
+]

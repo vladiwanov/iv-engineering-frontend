@@ -1,0 +1,13 @@
+@import "../../../../utils/styles/main.scss";
+
+@import 'utils/styles/main.scss';
+@import 'utils/styles/form-submit-styles/submitInput';
+@import 'utils/styles/form-submit-styles/formstyles';
+
+.formField {
+  position: relative;
+  margin: 40px auto;
+  outline: $accent-secondary-color;
+}
+
+

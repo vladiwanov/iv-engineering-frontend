@@ -1,0 +1,18 @@
+.windList {
+  text-align: start;
+  list-style: circle;
+}
+
+.windItem {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.textItem {
+  display: block;
+  padding: 5px;
+  border: none;
+}
+

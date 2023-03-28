@@ -1,0 +1,43 @@
+@import 'utils/styles/main.scss';
+
+.submitButton{
+text-align: center;
+font-size: 12px;
+background-color: $accent-secondary-color;
+color: $text-primary-color;
+border-radius: 5px;
+border: none;
+padding: 5px 10px;
+margin: 10px auto;
+  &:hover{
+  cursor: pointer;
+  color: $accent-primary-color;
+  }
+}
+
+
+@media screen and (min-width:$mobile) {
+  .submitButton{
+    font-size: 14px;
+    padding: 5px 15px;
+    margin: 10px auto;
+  }
+}
+
+@media screen and (min-width:$tablet) {
+  .submitButton{
+    font-size: 20px;
+    margin: 20px auto;
+    padding: 10px 15px;
+    
+  }
+}
+
+@media screen and (min-width:$desktop) {
+  .submitButton{
+    font-size: 24px;
+    margin: 30px auto;
+    padding: 10px 30px;
+
+  }
+}

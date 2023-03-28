@@ -1,0 +1,47 @@
+.images {
+  // outline: 1px red solid;
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 10px auto;
+  padding: 10px;
+  border-left: $accent-secondary-color 1px solid;
+}
+
+.imagesWorks {
+  display: block;
+  width: 90%;
+}
+
+@media screen and (min-width: $mobile) {
+  .images {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: $tablet) {
+  .images {
+    width: 40%;
+    height: auto;
+    margin: 15px auto;
+  }
+
+  .imagesWorks {
+    display: block;
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: $desktop) {
+  .images {
+    width: 40%;
+    height: auto;
+    margin: 25px auto;
+  }
+
+  .imagesWorks {
+    display: block;
+    width: 90%;
+  }
+}

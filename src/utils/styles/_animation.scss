@@ -1,0 +1,135 @@
+
+
+
+
+
+.contactsAnimation{
+  animation: animate100 1000ms $timing-function forwards;
+}
+  
+.contentAnimation{
+  animation: animate200 1000ms $timing-function forwards;
+}
+
+.active{
+   animation: animate200 1000ms $timing-function forwards;
+}
+
+
+.activeSlide1{
+  opacity: 1;
+  animation: animateSlide400 3000ms linear  forwards ;
+
+}
+
+.activeSlide2{
+  opacity: 0;
+  animation: animateSlide500 3000ms linear forwards  ;
+
+}
+
+
+
+.inactive{
+  opacity: 0;
+}
+
+  // --------------------------------------
+
+  @keyframes animate100 {
+    0% {
+      opacity: 0;
+  transform: translateX(-100%);
+    }
+  
+    30% {
+      opacity: 0;
+  transform: translateX(-100%);
+    }
+  
+    100% {
+      opacity: 1;
+  transform: translateX(0);
+    }
+  }
+
+  
+  @keyframes animate200 {
+    0% {
+      opacity: 0;
+    }
+  
+    25% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+  @keyframes animateSlide400{
+    0%{
+      opacity: 1;
+    }
+
+    25%{
+
+      opacity: 1;
+    }
+    
+    50%{
+      opacity: 1;
+    }
+    
+    75%{
+      opacity: 1;
+    }
+
+    100%{
+      opacity: 0;
+    }
+      }
+
+
+
+
+  @keyframes animateSlide500{
+0%{
+  opacity: 0;
+}
+
+
+25%{
+
+  opacity: 0;
+}
+
+50%{
+  opacity: 0;
+}
+
+75%{
+  opacity: 0;
+}
+
+100%{
+  opacity: 1;
+}
+  }
+
+
+ 
+
+  // .appear{
+  //   // transform: translateX(-100%);
+  //   opacity: 0;
+  // }
+
+  // .appearActive{
+  //   // transform: translateX(0);
+  //   opacity: 1;
+  //   // transition: all  3000ms $timing-function;
+  //   transition: all  1500ms linear;
+  // }

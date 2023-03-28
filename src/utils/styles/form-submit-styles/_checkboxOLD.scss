@@ -1,0 +1,70 @@
+.checkboxButtons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.checkboxItem {
+  text-align: center;
+}
+
+.checkboxContainer {
+  display: flex;
+  align-items: center;
+}
+
+.check {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.checkboxLabel {
+  display: block;
+  &:hover {
+    color: $accent-color-alt;
+  }
+}
+.checkboxContent {
+  display: block;
+  text-align: center;
+  min-width: 70px;
+  font-size: 10px;
+  color: #202020;
+
+  .check:checked + & {
+    transform: translateY(-50px);
+    color: $accent-color-alt;
+    transition: transform $time-amount $timing-function;
+  }
+}
+
+.licence {
+  display: block;
+  margin-left: 15px;
+
+  text-align: start;
+  font-size: 12px;
+  line-height: 1.71;
+  color: #202020;
+
+  &:hover {
+    color: $accent-color-alt;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: $mobile) {
+  .checkboxContent {
+    min-width: 80px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: $tablet) {
+}
+
+@media screen and (min-width: $desktop) {
+  .checkboxContent {
+    min-width: 150px;
+  }
+}

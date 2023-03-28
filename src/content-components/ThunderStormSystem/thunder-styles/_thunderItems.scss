@@ -1,0 +1,16 @@
+.thunderList {
+    text-align: start;
+    list-style:circle;
+}
+
+.thunderItem{
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding-left: 15px;
+
+}
+
+.textItem{
+  padding: 5px;
+}

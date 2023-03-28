@@ -1,0 +1,34 @@
+// @import 'styles/main.scss';
+
+.app-bar{
+
+display:flex;
+margin: 10px auto;
+justify-content: space-between;
+width: 100%;
+height: 100px;
+// background-color: $header-bgc;
+
+.items{
+  margin: 30px;
+}
+}
+
+
+@media screen  and (min-width:$mobile) {
+  .app-bar{
+    margin: 20px auto;
+  }
+}
+
+@media screen and (min-width:$tablet) {
+   .app-bar{
+    margin: 30px auto;
+  }
+}
+
+@media screen and (min-width:$desktop) {
+   .app-bar{
+    margin: 50px auto;
+  }
+}

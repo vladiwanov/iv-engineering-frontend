@@ -1,0 +1,75 @@
+
+@font-face {
+    font-family: 'StyreneAWeb';
+    // src: url('StyreneAWeb-Thin.eot');
+    src: local('StyreneAWeb-Thin'), 
+        // url('StyreneAWeb-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/StyreneWeb/StyreneAWeb-Thin.woff2') format('woff2'),
+        url('../fonts/StyreneWeb/StyreneAWeb-Thin.woff') format('woff'),
+        url('../fonts/StyreneWeb/StyreneAWeb-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style:normal;
+}
+
+
+
+@font-face {
+    font-family: 'StyreneAWeb';
+    // src: url('StyreneAWeb-Regular.eot');
+    src: local('StyreneAWeb-Regular'),
+        url('../fonts/StyreneWeb/StyreneAWeb-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/StyreneWeb/StyreneAWeb-Regular.woff2') format('woff2'),
+        url('../fonts/StyreneWeb/StyreneAWeb-Regular.woff') format('woff'),
+        url('../fonts/StyreneWeb/StyreneAWeb-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// @font-face {
+//     font-family: 'StyreneAWeb';
+//     // src: url('StyreneAWeb-Medium.eot');
+//     src: local('StyreneAWeb-Medium'),
+//         url('../fonts/StyreneWeb/StyreneAWeb-Medium.eot?#iefix') format('embedded-opentype'),
+//         url('../fonts/StyreneWeb/StyreneAWeb-Medium.woff2') format('woff2'),
+//         url('../fonts/StyreneWeb/StyreneAWeb-Medium.woff') format('woff'),
+//         url('../fonts/StyreneWeb/StyreneAWeb-Medium.ttf') format('truetype');
+//     font-weight: 500;
+//     font-style: normal;
+// }
+
+@font-face {
+    font-family: 'StyreneAWeb';
+    src: local('StyreneAWeb-Light'), 
+        url('../fonts/StyreneWeb/StyreneAWeb-Thin.woff2') format('woff2'),
+        url('../fonts/StyreneWeb/StyreneAWeb-Thin.woff') format('woff'),
+        url('../fonts/StyreneWeb/StyreneAWeb-Thin.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+// @font-face {
+//     font-family: 'StyreneAWeb';
+//     // src: url('StyreneAWeb-Regular.eot');
+//     src: local('StyreneAWeb-Regular'),
+//         url('../fonts/StyreneWeb/StyreneAWeb-Regular.eot?#iefix') format('embedded-opentype'),
+//         url('../fonts/StyreneWeb/StyreneAWeb-Regular.woff2') format('woff2'),
+//         url('../fonts/StyreneWeb/StyreneAWeb-Regular.woff') format('woff'),
+//         url('../fonts/StyreneWeb/StyreneAWeb-Regular.ttf') format('truetype');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+
+// @font-face {
+//     font-family: 'StyreneAWeb';
+//     // src: url('StyreneAWeb-Medium.eot');
+//     src: local('StyreneAWeb-Medium'),
+//         url('../fonts/StyreneWeb/StyreneAWeb-Medium.eot?#iefix') format('embedded-opentype'),
+//         url('../fonts/StyreneWeb/StyreneAWeb-Medium.woff2') format('woff2'),
+//         url('../fonts/StyreneWeb/StyreneAWeb-Medium.woff') format('woff'),
+//         url('../fonts/StyreneWeb/StyreneAWeb-Medium.ttf') format('truetype');
+//     font-weight: 500;
+//     font-style: normal;
+// }

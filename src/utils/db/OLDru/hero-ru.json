@@ -1,0 +1,34 @@
+{
+  "title": "Инженерные системы для строительства и реконструкции",
+
+  "menu": [
+    {
+      "id": "hero1",
+      "title": "Информационные системы",
+      "pathname": "/systems/information-systems",
+      "className": "informationSystems",
+      "direction": "information-systems"
+    },
+    {
+      "id": "hero2",
+      "title": "Системы безопасности",
+      "pathname": "/systems/securitysystems",
+      "className": "securitysystems",
+      "direction": "securitysystems"
+    },
+    {
+      "id": "hero3",
+      "title": "Направление энергетики",
+      "pathname": "/systems/alternative-energy",
+      "className": "alternativeEnergy",
+      "direction": "alternative-energy"
+    }
+  ],
+  "about": {
+    "id": "hero4",
+    "title": "о компании",
+    "pathname": "/about",
+    "className": "about",
+    "direction": "about"
+  }
+}

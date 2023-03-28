@@ -1,0 +1,26 @@
+@import "utils/styles/main.scss";
+@import 'utils/styles/animation';
+
+.engineeringsystems{
+  position: relative;
+  box-sizing: content-box;
+  // width: 100%;
+  // height: 100%;
+  // overflow: hidden;
+padding-bottom: 30px;
+}
+@media screen and  (min-width:$mobile){
+  .engineeringsystems{
+padding-bottom: 30px;
+  }
+  }
+  @media screen and  (min-width:$tablet){
+    .engineeringsystems{
+      padding-bottom: 50px;
+        }
+  }
+  @media screen and  (min-width:$desktop){
+    .engineeringsystems{
+      padding-bottom: 220px;
+        }
+  }

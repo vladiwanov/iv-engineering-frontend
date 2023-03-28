@@ -1,0 +1,37 @@
+@import '../../utils/styles/main.scss';
+
+.appear{
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.appearActive{
+   transform: translateX(0);
+  opacity: 1;
+  // transition: all 500ms $timing-function;
+  transition: all 500ms linear;
+}
+
+// .enter{
+//   opacity: 0;
+//   transform: translateX(100%);
+// }
+
+// .enterActive{
+//   transform: translateX(0);
+//   opacity: 1;
+//   // transition: all 500ms $timing-function;
+//   transition: all 500ms linear;
+// }
+
+// .exit{
+//   opacity: 1;
+//   // transform: translateX(0);
+// }
+
+// .exitActive{
+//   opacity: 0;
+//   // transform: translateX(100%);
+//   // transition: all 500ms $timing-function;
+//   transition: all 500ms linear;
+// }

@@ -1,0 +1,28 @@
+.items {
+  display: block;
+  border-bottom: $accent-secondary-color 1px solid;
+}
+
+@media screen and(min-width:$mobile) {
+  .items {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and(min-width:$tablet) {
+  .items {
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+  }
+}
+
+@media screen and(min-width:$desktop) {
+  .items {
+    font-size: 20px;
+  }
+}

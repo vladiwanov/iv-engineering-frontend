@@ -1,0 +1,25 @@
+
+.imagesLogo{
+display: block;
+width: 10%;
+height: auto;
+margin: 20px;
+}
+
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(255,255,255,0.8);
+}
+
+
+@media screen and (min-width: $mobile) {
+}
+
+@media screen and (min-width: $tablet) {
+}
+
+@media screen and (min-width: $desktop) {
+}

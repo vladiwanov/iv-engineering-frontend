@@ -1,0 +1,34 @@
+{
+  "title": "Engineering systems for construction and reparing",
+
+  "menu": [
+    {
+      "id": "hero1",
+      "title": "Information Systems",
+      "pathname": "/systems/information-systems",
+      "className": "informationSystems",
+      "direction": "information-systems"
+    },
+    {
+      "id": "hero2",
+      "title": "Security Systems",
+      "pathname": "/systems/securitysystems",
+      "className": "securitysystems",
+      "direction": "securitysystems"
+    },
+    {
+      "id": "hero3",
+      "title": "Energy direction",
+      "pathname": "/systems/alternative-energy",
+      "className": "alternativeEnergy",
+      "direction": "alternative-energy"
+    }
+  ],
+  "about": {
+    "id": "hero4",
+    "title": "about us",
+    "pathname": "/about",
+    "className": "about",
+    "direction": "about"
+  }
+}

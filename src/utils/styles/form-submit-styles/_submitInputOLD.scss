@@ -1,0 +1,62 @@
+.formInput {
+  //. input  - поле ввода в элементах формы
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 0 0 0 42px;
+  border-radius: 5px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  // background-color: aquamarine;
+  // color: $text-button-color;
+  color: #202020;
+
+  font-family: sans-serif;
+  &:hover {
+    // cursor: pointer;
+    cursor: text;
+  }
+
+  &:focus {
+    border-color: $bgc-additional;
+    outline: none;
+  }
+}
+
+.inputIcon {
+  //.  svg - иконки в поле формы
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  fill: black;
+  width: 18px;
+  height: 18px;
+
+  .formInput:focus ~ & {
+    fill: $accent-color-alt;
+  }
+}
+
+.inputLabel {
+  //.  lable - текст в поле  инпута
+  position: absolute;
+  top: 50%;
+  left: 42px;
+  font-size: 14px;
+  line-height: 1.14;
+  transform: translateY(-50%);
+  color: $accent-color-alt;
+
+  transition: transform $time-amount $timing-function;
+
+  // .formInput:focus +.inputLabel,
+  .formInput:focus + &,
+  .formInput:not(:placeholder-shown) + & {
+    color: $accent-color-alt;
+    transform: translate(-29px, -45px);
+
+    font-size: 12px;
+    line-height: 1.17;
+  }
+}

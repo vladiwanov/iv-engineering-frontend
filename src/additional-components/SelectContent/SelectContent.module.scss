@@ -1,0 +1,9 @@
+@import 'utils/styles/main.scss';
+@import 'utils/styles/heads';
+@import 'utils/styles/details-animation.module.scss';
+
+
+.contentSelection{
+  animation: animate100 800ms $timing-function forwards;
+  
+}

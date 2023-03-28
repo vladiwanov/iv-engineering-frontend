@@ -1,0 +1,52 @@
+.images {
+  display: block;
+  width: 90%;
+  height: auto;
+  margin:  auto;
+  padding-left: 10px;
+}
+
+
+.worksImages {
+  display: block;
+  max-width: 90%;
+  height: auto;
+  margin: auto;
+  display: none;
+}
+
+@media screen and (min-width: $mobile) {
+  .images {
+    // width: 80%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: $tablet) {
+  .images {
+    max-width: 40%;
+    // height: auto;
+    // min-height: 350px;
+  border-left: $accent-secondary-color 1px solid;
+
+  }
+
+  .worksImages {
+    display: block;
+    width: 90%;
+    max-width: 350px;
+  height: 250px;
+  }
+}
+
+@media screen and (min-width: $desktop) {
+  .images {
+    // height: auto;
+  //  min-height: 500px;
+    margin: 25px auto;
+  }
+
+  .worksImages {
+    width: 90%;
+  }
+}

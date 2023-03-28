@@ -1,0 +1,33 @@
+{
+  "head":"Security Systems",
+  "subhead":
+    "Providing systems of security for manufacture builds, municipals and living houses",
+
+"Content": [
+  {
+    "id": "sec-1",
+    "content":"Videosurvilance",
+    "details":"videosurvilance"
+  },
+  {
+    "id": "sec-2",
+    "content":"Alarm systems",
+    "details":"alarm"
+  },  
+  {
+    "id": "sec-3",
+    "content":"Access systems",
+    "details":"access"
+  },
+  {
+    "id": "sec-4",
+    "content":"Fire defender systems",
+    "details":"fire"
+  },
+  {
+    "id": "sec-5",
+    "content":"Thunder defender systems",
+    "details":"thunder"
+  }
+]
+}

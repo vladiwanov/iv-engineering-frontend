@@ -1,0 +1,37 @@
+{
+  "head": "Solid fuel boilers and waste disposal systems",
+  "intro": "We develop complex solutions for heating systems,  combine various sources of thermal energy into a single system of heating and hot water supply. One of the most promising options for heating systems are solid fuel systems of long-term combustion and garbage disposals.",
+  "pain": "perform the function of burning wood chips and fuel pellets (pellets) with a moisture content of up to 10% and are designed to transfer boilers to the use of solid fuel",
+  "subhead": ["We offer:", " Within:"],
+  "solutions": [
+    "Solid fuel boilers of long burning",
+    "Ovens-utilizers of organic waste",
+    "equipment for the production of pellets from waste wood"
+  ],
+  "text1": "The duration of burning is up to 3 days on one load of fuel and can work on wood, coal or briquettes.",
+  "content1": [
+    " - various types of solid fuels - peat, coal, coal waste, pellets, briquettes, firewood, wood materials, municipal solid waste, garbage, etc. with high humidity and ash content",
+    " - allows you to work up to 3 days on one load of fuel (this characteristic may change in the range of 12-76 hours, depending on the type of fuel and thermal properties of the building)",
+    " - precise adjustment of the temperature and power allows you to save up to 50% of fuel compared to using simple boilers with conventional combustion",
+    " - can be included in the general heating system of the building",
+    " - automatically controlled"
+  ],
+  "text2": "Due to the special combustion method, the equipment has the following advantages:",
+  "content2": [
+    " - energy-saving technologies, cheap heat in compliance with environmental standards, significant fuel savings compared to similar heat generators",
+    " - fuel does not require preparation (i.e. fuel - unsorted!)",
+    " - Incredible environmental performance - emissions close to the \"ideal fuel\" - natural gas (composition of CO in the exhaust gases is less than 1 g/m3 at an allowable rate for burning natural gas of 0.6 g/m3) - heat generators can be installed in urban areas"
+  ],
+  "text3": "Wood chips and pellets, which are organic waste, have the following advantages:",
+
+  "content3": [
+    " - availability due to low cost;",
+    " - effective efficiency indicators due to the high calorific value;",
+    " - virtually complete combustion",
+    " - the absence of a large amount of emissions of harmful substances into the atmosphere and soil"
+  ],
+
+  "link1": "",
+
+  "works": ["Solution development", "System installation", "Service support"]
+}

@@ -1,0 +1,50 @@
+@import '../../utils/styles/main.scss';
+
+.contentTitle{
+  // font-family: 'Montserrat', sans-serif;
+  // font-family: 'Raleway',sans-serif;
+  font-family: 'StyreneALC-Medium', sans-serif;
+  // font-family: 'StyreneALC', sans-serif;
+  font-weight: 500;
+  color: $accent-primary-color;
+  font-size: 26px;
+  // font-weight: normal;
+  text-align: center;
+  margin-bottom: 20px ;
+  padding-top: 30px;
+}
+
+.contentSubtitle{
+  display: block;
+  font-family: 'StyreneALC-Light', sans-serif;
+  // width: 1000px;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: $accent-secondary-color;
+
+}
+
+@media screen and  (min-width:$mobile){
+  .contentSubtitle{
+    font-size: 14px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  }
+  @media screen and  (min-width:$tablet){
+    .contentSubtitle{
+      font-size: 16px;
+      margin-left: 12px;
+      margin-right: 12px;
+  }
+  }
+  @media screen and  (min-width:$desktop){
+    .contentSubtitle{
+      font-size: 20px;
+      margin-left: 15px;
+      margin-right: 15px;
+  }
+  }

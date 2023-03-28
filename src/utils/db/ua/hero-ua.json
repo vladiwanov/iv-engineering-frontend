@@ -1,0 +1,35 @@
+{
+  "title": "Інженерні системи для будівництва та реконструкції",
+
+  "subtitle": "Робимо життя більш комфортним та безпечним",
+  "menu": [
+    {
+      "id": "hero1",
+      "title": "Інформаційні системи",
+      "pathname": "/systems/information-systems",
+      "className": "informationSystems",
+      "direction": "information-systems"
+    },
+    {
+      "id": "hero2",
+      "title": "Системи безпеки",
+      "pathname": "/systems/securitysystems",
+      "className": "securitysystems",
+      "direction": "securitysystems"
+    },
+    {
+      "id": "hero3",
+      "title": "Напрямок енергетики",
+      "pathname": "/systems/alternative-energy",
+      "className": "alternativeEnergy",
+      "direction": "alternative-energy"
+    }
+  ],
+  "about": {
+    "id": "hero4",
+    "title": "про компанію",
+    "pathname": "/about",
+    "className": "about",
+    "direction": "about"
+  }
+}

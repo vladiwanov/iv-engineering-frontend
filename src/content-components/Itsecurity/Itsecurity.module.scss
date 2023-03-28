@@ -1,0 +1,110 @@
+@import 'utils/styles/main.scss';
+@import 'utils/styles/items';
+@import 'utils/styles/heads';
+@import 'utils/styles/pain';
+@import 'utils/styles/content-components-styles/images';
+@import 'utils/styles/content-components-styles/content';
+@import 'utils/styles/content-components-styles/works';
+@import 'utils/styles/content-components-styles/componentText';
+
+
+.itsecurity{
+  box-sizing: content-box;
+  width: auto;
+  height: auto;
+  display: block;
+  width: 95%;
+  // background-color: tomato;
+  // background-color: #fff;
+  text-align: center;
+  margin: auto;
+  color: $text-primary-color;
+}
+
+.title{
+  font-family: 'StyreneAWeb';
+}
+
+// .container{
+//   // composes: itsecurity;
+//   // display: flex;
+//   // position: ;
+// }
+
+// .subhead{
+//   // font-family: 'Montserrat';
+//   font-family: 'StyreneALC';
+//   font-size: 22px;
+//   color: $text-primary-color;
+//   margin: 20px 15px;
+// }
+.text {
+  width: 50%;
+  margin: auto;
+  font-family: 'GothamPro';
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 1.3rem;
+  letter-spacing: 1.1;
+  color: $text-primary-color;
+}
+
+
+  // font-family: 'Montserrat';
+  // font-family: 'GothamPro';
+  // font-family: 'Raleway';
+  // font-family: 'StyreneALC-Bold';
+
+//   font-weight: 300;
+//   font-size: 20px;
+//   line-height: 1.3rem;
+//   letter-spacing: 1.1;
+//   color: $text-primary-color;
+
+// }
+
+.textContent{
+  width: 50%;
+  height: auto;
+  color: $text-secondary-color;
+  text-align: start;
+}
+
+.list{
+  margin: 30px;
+}
+
+
+.works{
+margin-bottom: 20px;
+}
+
+
+@media screen and (min-width: $mobile) {
+  .list {
+    display: block;
+  }
+  .text{
+  font-size: 14px;
+  }
+}
+
+@media screen and (min-width: $tablet) {
+  .list {
+    display: flex;
+    //  flex-direction: column;
+  }
+  .text{
+    font-size: 16px;
+  border-left: $accent-secondary-color 1px solid;
+
+    }
+}
+
+@media screen and (min-width: $desktop) {
+  .list {
+  }
+  .text{
+    font-size: 20px;
+    }
+}
