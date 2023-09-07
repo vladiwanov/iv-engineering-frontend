@@ -24,13 +24,14 @@ export default function LANContent() {
         <p className={s.pain} style={{ marginBottom: '30px' }}>
           {lan.pain}
         </p>
-        <b className={s.subhead}>{lan.subhead[0]}</b>
+        {/* <b className={s.subhead}>{lan.subhead[0]}</b> */}
         <ul>
           <li className={s.contentItems} id="contentItems">
             <div className={s.itemText}>
               <p className={`${s.subhead} ${s.subheadItems} `}>
                 {lan.solutions[0]}
               </p>
+               <p className={s.pain}>{ lanDirections.lanText}</p>
 
               <ul className={s.contentLanList}>
                 <li>
