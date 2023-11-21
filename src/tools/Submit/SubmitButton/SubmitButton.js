@@ -13,13 +13,13 @@ export default function SubmitButton({ onToggle }) {
   };
   return (
     <>
-      {/* <button
-        type="button"
-        onClick={onHanldeClickButton}
-        className={` ${s.submitButton}`}
-      >
-        <p>{submit.text}</p>
-      </button> */}
+      {/*<button*/}
+      {/*  type="button"*/}
+      {/*  onClick={onHanldeClickButton}*/}
+      {/*  className={` ${s.submitButton}`}*/}
+      {/*>*/}
+      {/*  <p>{submit.text}</p>*/}
+      {/*</button>*/}
     </>
   );
 }
