@@ -11,6 +11,7 @@ import {
 import LangContentSelector from '../../additional-components/LanguageContentSelector';
 import routes from 'routes';
 import io from 'tools/io';
+import {logger} from "redux-logger/src";
 
 export default function Hero() {
   const dispatch = useDispatch();
@@ -42,7 +43,7 @@ export default function Hero() {
       </div>
 
       <ul className={s.heroMenu}>
-        {hero.menu.map(({ id, title, direction, pathname, className }) => (
+        {hero.menu.map(({ id, title, direction, pathname, content, className }) => (
           <li key={id}>
             <NavLink
               id="hero"
@@ -52,6 +53,13 @@ export default function Hero() {
             >
               {title}
             </NavLink>
+              {/*--------------------------------*/}
+              <ul className={s.directionContent}>
+                  { content.map((item,i) =>   <li key={i} className={s.heroText}>
+                          {item}
+                      </li>)}
+              </ul>
+          {/* ------------------------------  */}
           </li>
         ))}
       </ul>

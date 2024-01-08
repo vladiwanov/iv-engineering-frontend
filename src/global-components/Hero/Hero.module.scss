@@ -32,7 +32,8 @@
   display: inline-block;
   margin-bottom: 20px; 
   border:none;
-  text-decoration: none;
+  font-size: 15px;
+  text-decoration: underline;
   background-color: transparent;
   opacity: 0;
   // outline: 1px solid green;
@@ -62,31 +63,60 @@
   opacity:0.3;
 }
 
+.directionContent{
+  margin-bottom: 20px;
+}
 
+.heroText{
+  font-family: 'GothamPro', sans-serif;
+  font-size:12px;
+  color: rgba(199, 195, 93, 0.87);
+}
 
 @media screen and (min-width: $mobile) {
   .hero{
     // margin-top: 50px;
     padding-top: 50px;
-
   }
- 
+
+  .directionContent{
+    margin-bottom: 20px;
+  }
+
+  .heroText{
+    font-size:14px;
+    margin-bottom: 20px;
+  }
 }
   
 
 @media screen and (min-width: $tablet) {
-  .hero{
+  .hero {
     // margin-top: 100px;
     padding-top: 100px;
 
   }
-  .heroMenu{
+  .heroMenu {
     display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-.heroButton{
-    margin-bottom: 50px; }
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+
+  .directionContent {
+    margin-bottom: 30px;
+  }
+
+  .heroButton {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .heroText {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
 }
 
 @media screen and (min-width: $desktop) {
@@ -94,4 +124,19 @@
     // margin-top: 200px;
     padding-top: 200px;
   }
+
+  .directionContent{
+    margin-bottom: 50px;
+  }
+
+  .heroButton {
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+
+  .heroText{
+    font-size:20px;
+  }
+
+
 }

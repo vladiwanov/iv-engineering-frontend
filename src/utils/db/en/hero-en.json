@@ -7,21 +7,24 @@
       "title": "Information Systems",
       "pathname": "/systems/information-systems",
       "className": "informationSystems",
-      "direction": "information-systems"
+      "direction": "information-systems",
+      "content": ["data transfer","information security"]
     },
     {
       "id": "hero2",
       "title": "Security Systems",
       "pathname": "/systems/securitysystems",
       "className": "securitysystems",
-      "direction": "securitysystems"
+      "direction": "securitysystems",
+      "content": ["video surveillance","security alarm system","access control","fire protection","lightning protection"]
     },
     {
       "id": "hero3",
       "title": "Energy direction",
       "pathname": "/systems/alternative-energy",
       "className": "alternativeEnergy",
-      "direction": "alternative-energy"
+      "direction": "alternative-energy",
+      "content": ["traditional electricity","wind generators","autonomous street lighting","solar power plants","solid fuel heating systems"]
     }
   ],
   "about": {
