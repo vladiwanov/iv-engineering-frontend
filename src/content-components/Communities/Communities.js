@@ -32,7 +32,7 @@ export default function Communities() {
             </svg>
           </a>
         </li>
-        <li>
+        {/* <li>
           <a
             id="contacts"
             href="https://twitter.com/iv_engineering_"
@@ -44,7 +44,7 @@ export default function Communities() {
               <use href={sprite + '#icon-twitter'} />
             </svg>
           </a>
-        </li>
+        </li> */}
         <li>
           <a
             id="contacts"
