@@ -23,6 +23,7 @@ const App = () => {
   const hashes = Object.values(routes);
   hashes.splice(0, 6);
 
+  
   const {
     main,
     systems,
