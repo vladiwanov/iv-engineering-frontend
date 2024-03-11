@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className={s.footer} id="container">
       <Contacts />
-      <Communities />
+      {/* <Communities /> */}
     </footer>
   );
 }
