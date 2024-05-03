@@ -46,6 +46,8 @@ import gratefulLetterEn from 'utils/db/en/gratefulLetter-en.js';
 import alertSubmitEn from 'utils/db/en/alertSubmit-en.js';
 import footerEn from 'utils/db/en/footer-en.json';
 import electricEn from 'utils/db/en/electric-en.js';
+import metalglasEn from 'utils/db/en/metalglas-en.js';
+import windowsEn from 'utils/db/en/windows-en.js';
 
 import heroUa from 'utils/db/ua/hero-ua.json';
 import naviUa from 'utils/db/ua/navigation-ua.json';
@@ -71,6 +73,9 @@ import alertSubmitUa from 'utils/db/ua/alertSubmit-ua.js';
 import footerUa from 'utils/db/ua/footer-ua.json';
 import lightingUa from 'utils/db/ua/lighting-ua.json';
 import electricUa from 'utils/db/ua/electric-ua.js';
+import metalglasUa from 'utils/db/ua/metalglas-ua.js';
+import windowsUa from 'utils/db/ua/windows-ua.js';
+import metalglas from 'utils/db/ua/metalglas-ua.js';
 
 const LangContentSelector = currentLanguage => {
   // const ru = {
@@ -123,6 +128,8 @@ const LangContentSelector = currentLanguage => {
     alertSubmit: alertSubmitEn,
     footer: footerEn,
     electric: electricEn,
+    metalglas: metalglasEn,
+    windows: windowsEn,
   };
   const ua = {
     hero: heroUa,
@@ -149,6 +156,8 @@ const LangContentSelector = currentLanguage => {
     alertSubmit: alertSubmitUa,
     footer: footerUa,
     electric: electricUa,
+    metalglas: metalglasUa,
+    windows: windowsUa,
   };
   switch (currentLanguage) {
     // case 'RU':

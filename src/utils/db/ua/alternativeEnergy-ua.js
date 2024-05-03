@@ -10,7 +10,7 @@ const energy = {
       details: 'electric',
     },
     {
-      id: 'AlEn-1',
+      id: 'AlEn-5',
       content: 'Вітрогенератори ',
       details: 'windturbines',
     },
@@ -32,6 +32,12 @@ const energy = {
         'системи опалення твердопаливними котлами та утилізаторами сміття ',
       details: 'heating',
     },
+    {
+      id: 'AlEn-6',
+      content: ' металопластикові конструкції ',
+      details: 'windows',
+    },
+
     // {
     //   id: 'AlEn-5',
     //   content: 'Системи опалення тепловими насосами',

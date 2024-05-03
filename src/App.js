@@ -18,6 +18,7 @@ const App = () => {
     InformationSystems,
     SecuritySystems,
     AlternativeEnergy,
+    MetalGlas,
   } = componentsLoad;
 
   const hashes = Object.values(routes);
@@ -29,6 +30,7 @@ const App = () => {
     information_systems,
     securitysystems,
     alternative_energy,
+    metal_glas,
   } = routes;
 
   const responseSubmit = useSelector(getSubmitStatusSelector);
@@ -92,6 +94,16 @@ const App = () => {
                   <AlternativeEnergy
                     state={{
                       pathname: alternative_energy,
+                    }}
+                  />
+                }
+              />
+              <Route
+                path={`${metal_glas}`}
+                element={
+                  <MetalGlas
+                    state={{
+                      pathname: metal_glas,
                     }}
                   />
                 }

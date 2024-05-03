@@ -52,6 +52,12 @@ const componentsLoad = {
         'global-components/AlternativeEnergy'
       ) /* webpackChunkName:"AlternativeEnergy" */,
   ),
+  MetalGlas: lazy(
+    () =>
+      import(
+        'global-components/MetalGlas'
+      ) /* webpackChunkName:"AlternativeEnergy" */,
+  ),
   // ======================================================
   LANContent: lazy(
     () =>
@@ -127,6 +133,12 @@ const componentsLoad = {
         'content-components/SolidFuelHeating'
       ) /* webpackChunkName:"SolidFuelHeating" */,
   ),
+  // ======================================================
+  Windows: lazy(
+    () => import('content-components/Windows') /* webpackChunkName:"Windows" */,
+  ),
+
+  // ----------------------------------------------------------------
   SelectContent: lazy(
     () =>
       import(

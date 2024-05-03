@@ -4,6 +4,7 @@ import { useDispatch } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import * as actions from '../../redux/content/content-actions';
 import io from 'tools/io';
+
 export default function Content(props) {
   const dispatch = useDispatch();
   const { pathname } = props.state;

@@ -3,6 +3,7 @@ import React, { Suspense } from 'react';
 import routes from 'routes';
 import componentsLoad from '../../componentsLoad';
 import CloseButton from 'tools/CloseButton';
+import WindowsSystems from 'content-components/Windows/Windows';
 // import ElectricDirection from '../../content-components/ElectricDirection';
 
 export default function SelectContent(props) {
@@ -20,12 +21,13 @@ export default function SelectContent(props) {
     SolidFuelHeating,
     SolarEnergy,
     ElectricDirection,
+    Windows,
   } = componentsLoad;
   const { state: pathname } = props;
   const path = pathname.pathname;
 
   const hashes = Object.values(routes);
-  hashes.splice(0, 6);
+  hashes.splice(0, 7);
 
   return (
     <>
@@ -47,6 +49,7 @@ export default function SelectContent(props) {
           {path.hash === hashes[13] && <SolidFuelHeating />}
           {path.hash === hashes[14] && <NotFoundPage />}
           {path.hash === hashes[15] && <NotFoundPage />}
+          {path.hash === hashes[16] && <Windows />}
         </Suspense>
       </section>
       <CloseButton />

@@ -9,7 +9,7 @@ const energy = {
       details: 'electric',
     },
     {
-      id: 'AlEn-1',
+      id: 'AlEn-5',
       content: 'Wind generators',
       details: 'windturbines',
     },
@@ -29,6 +29,11 @@ const energy = {
       id: 'AlEn-4',
       content: 'Heating systems with solid fuel boilers and waste disposers',
       details: 'heating',
+    },
+    {
+      id: 'AlEn-6',
+      content: 'metal-plastic structures',
+      details: 'windows',
     },
     // {
     //   id: 'AlEn-5',

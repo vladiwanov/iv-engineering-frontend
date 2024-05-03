@@ -1,3 +1,5 @@
+// -------------------------------Intersection Observer-----------------------
+
 // ----------BEGIN----------------
 import s from '../utils/styles/main.scss';
 

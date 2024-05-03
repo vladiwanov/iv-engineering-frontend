@@ -1,0 +1,51 @@
+1) В папке content-components создать папку с именем имяФайла, для  этого внести имя или ввести имя каким-то образом возможно вписать имяФайла в файл типа .env
+
+2) в папке с новым именем создать одноименный имяФайла, в котором будет отображаться контекст для веб страницы
+
+3) в папке db/en - создать одноименный имяФайла-en.js куда будет вноситься контекстная информация  на англ.
+
+4) в папке db/ua - создать одноименный имяФайла-ua.js куда будет вноситься контекстная информация  на укр.
+
+5) в имяФайла LanguageContentSelector добавить строки :
+    import имяФайлаEn from 'utils/db/en/имяФайла-en.js';
+    import имяФайлаUa from 'utils/db/ua/имяФайла-ua.js';
+
+   добавить  в объект en{
+имяФайла: имяФайлаEn,
+    }
+
+    добавить в объект ua{
+имяФайла: имяФайлаUa,
+    }
+
+
+  6)  в файл routes добавить путь имяФайла: 'название направления/имяФайла', название направления тоже внести в .env
+    
+  7) в файл SelectContent.js добавить строку: {path.hash === hashes[индексИмяФайла] && <имяФайла />}
+
+  8) в папке utils/db/images-db сщздать файл имяФайла.js и симпортировать в него рисунки из папки utils/db/img/имяФайла
+
+  9) в файл имяФайла.js доавить строки :
+              import s from './ElectricDirection.module.scss';
+              import { useSelector } from 'react-redux';
+              import { useEffect } from 'react';
+              import { getLanguageMemoised } from 'redux/languages/languages-selector';
+              import LangContentSelector from '../../additional-components/LanguageContentSelector';
+              import Submit from 'tools/Submit';
+              import images from 'utils/db/images-db/имяФайла';
+              import io from 'tools/io';
+              import LanguageContent from 'additional-components/LanguageContent';
+              import arrayMaping from 'tools/arrayMaping';
+
+export default function Файл() {
+  const имяФайла = LanguageContent('имяФайла');
+  // -------------------------IO---------------------------
+  useEffect(() => {
+    io();
+  }, []);
+  // ------------------------------------------------------
+  return ()
+  
+  }
+
+  10)  

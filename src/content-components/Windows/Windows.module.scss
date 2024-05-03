@@ -1,0 +1,29 @@
+@import 'utils/styles/main.scss';
+@import 'utils/styles/items';
+@import 'utils/styles/heads';
+@import 'utils/styles/pain';
+@import 'utils/styles/content-components-styles/images';
+@import 'utils/styles/content-components-styles/content';
+@import 'utils/styles/content-components-styles/works';
+@import 'utils/styles/content-components-styles/componentText';
+
+
+.windows {
+  box-sizing: content-box;
+  width: 95%;
+  height: auto;
+  text-align: center;
+  margin: auto;
+  color: $text-primary-color;
+}
+
+
+.windowsList {
+  text-align: start;
+  list-style: circle;
+}
+
+
+.textItem {
+  padding: 5px;
+}

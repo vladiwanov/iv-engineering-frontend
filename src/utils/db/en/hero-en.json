@@ -1,6 +1,5 @@
 {
   "title": "Engineering systems for construction and reparing",
-
   "menu": [
     {
       "id": "hero1",
@@ -8,7 +7,10 @@
       "pathname": "/systems/information-systems",
       "className": "informationSystems",
       "direction": "information-systems",
-      "content": ["data transfer","information security"]
+      "content": [
+        "data transfer",
+        "information security"
+      ]
     },
     {
       "id": "hero2",
@@ -16,7 +18,13 @@
       "pathname": "/systems/securitysystems",
       "className": "securitysystems",
       "direction": "securitysystems",
-      "content": ["video surveillance","security alarm system","access control","fire protection","lightning protection"]
+      "content": [
+        "video surveillance",
+        "security alarm system",
+        "access control",
+        "fire protection",
+        "lightning protection"
+      ]
     },
     {
       "id": "hero3",
@@ -24,11 +32,29 @@
       "pathname": "/systems/alternative-energy",
       "className": "alternativeEnergy",
       "direction": "alternative-energy",
-      "content": ["traditional electricity","wind generators","autonomous street lighting","solar power plants","solid fuel heating systems"]
+      "content": [
+        "traditional electricity",
+        "wind generators",
+        "autonomous street lighting",
+        "solar power plants",
+        "solid fuel heating systems"
+      ]
+    },
+    {
+      "id": "hero4",
+      "title": "glas structures",
+      "pathname": "/systems/metal-glas",
+      "className": "metalglas",
+      "direction": "metal-glas",
+      "content": [
+        "windows",
+        "doors",
+        "transparent structures"
+      ]
     }
   ],
   "about": {
-    "id": "hero4",
+    "id": "hero10",
     "title": "about us",
     "pathname": "/about",
     "className": "about",

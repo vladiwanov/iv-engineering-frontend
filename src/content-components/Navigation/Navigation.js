@@ -23,7 +23,12 @@ export default function Navigation({ location }) {
     value => dispatch(detailsAction(value)),
     [dispatch],
   );
-  const { information_systems, securitysystems, alternative_energy } = routes;
+  const {
+    information_systems,
+    securitysystems,
+    alternative_energy,
+    metal_glas,
+  } = routes;
   const { navigation } = LangContentSelector(currentLanguage);
 
   const funtionCombiner = useCallback(
@@ -67,6 +72,16 @@ export default function Navigation({ location }) {
           to={`${alternative_energy}`}
         >
           {navigation[3]}
+        </NavLink>
+      </li>
+      <li key={'metal_glas'}>
+        <NavLink
+          className={s.link}
+          // activeClassName={s.activeLink}
+          onClick={() => funtionCombiner('metal_glas')}
+          to={`${metal_glas}`}
+        >
+          {navigation[4]}
         </NavLink>
       </li>
     </ul>
