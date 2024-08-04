@@ -22,8 +22,10 @@
 // import alertSubmitRu from 'utils/db/ru/alertSubmit-ru.js';
 // import footerRu from 'utils/db/ru/footer-ru.json';
 
-import heroEn from 'utils/db/en/hero-en.json';
-import naviEn from 'utils/db/en/navigation-en.json';
+// import heroEn from 'utils/db/en/hero-en.json';
+import heroEn from 'utils/db/en/hero-en.js';
+// import naviEn from 'utils/db/en/navigation-en.json';
+import naviEn from 'utils/db/en/navigation-en.js';
 import infornationSystemsEn from 'utils/db/en/infornationSystems-en.js';
 import securityEn from 'utils/db/en/securitysystems-en.json';
 import alternativeEnergyEn from 'utils/db/en/alternativeEnergy-en.js';
@@ -49,8 +51,10 @@ import electricEn from 'utils/db/en/electric-en.js';
 import metalglasEn from 'utils/db/en/metalglas-en.js';
 import windowsEn from 'utils/db/en/windows-en.js';
 
-import heroUa from 'utils/db/ua/hero-ua.json';
-import naviUa from 'utils/db/ua/navigation-ua.json';
+// import heroUa from 'utils/db/ua/hero-ua.json';
+import heroUa from 'utils/db/ua/hero-ua.js';
+// import naviUa from 'utils/db/ua/navigation-ua.json';
+import naviUa from 'utils/db/ua/navigation-ua.js';
 import infornationSystemsUa from 'utils/db/ua/infornationSystems-ua.js';
 import securityUa from 'utils/db/ua/securitysystems-ua.json';
 import alternativeEnergyUa from 'utils/db/ua/alternativeEnergy-ua.js';
@@ -75,7 +79,7 @@ import lightingUa from 'utils/db/ua/lighting-ua.json';
 import electricUa from 'utils/db/ua/electric-ua.js';
 import metalglasUa from 'utils/db/ua/metalglas-ua.js';
 import windowsUa from 'utils/db/ua/windows-ua.js';
-import metalglas from 'utils/db/ua/metalglas-ua.js';
+// import metalglas from 'utils/db/ua/metalglas-ua.js';
 
 const LangContentSelector = currentLanguage => {
   // const ru = {

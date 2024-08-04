@@ -74,7 +74,7 @@ export default function Navigation({ location }) {
           {navigation[3]}
         </NavLink>
       </li>
-      <li key={'metal_glas'}>
+      {/* <li key={'metal_glas'}>
         <NavLink
           className={s.link}
           // activeClassName={s.activeLink}
@@ -83,7 +83,7 @@ export default function Navigation({ location }) {
         >
           {navigation[4]}
         </NavLink>
-      </li>
+      </li> */}
     </ul>
   );
 }

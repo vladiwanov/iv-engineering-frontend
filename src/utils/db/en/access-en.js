@@ -52,7 +52,7 @@ const access = {
     'Service support',
   ],
   links: {
-    vein: 'https://drive.google.com/file/d/16ct-CYNHOcFiltLJuxHnJjQmCJ0z8SeD/view?usp=share_link',
+    vein: 'https://drive.google.com/file/d/1897gLMYJD0sloUcYsGxeUu3wQHxUwkDB/view?usp=sharing',
   },
 };
 export default access;

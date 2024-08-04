@@ -1,0 +1,29 @@
+@import 'utils/styles/main.scss';
+@import 'utils/styles/animation';
+
+.datatransfer {
+  position: relative;
+  box-sizing: content-box;
+  // width: 100%;
+  // height: 100%;
+  // overflow: hidden;
+  padding-bottom: 30px;
+}
+
+@media screen and (min-width:$mobile) {
+  .datatransfer {
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (min-width:$tablet) {
+  .datatransfer {
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (min-width:$desktop) {
+  .datatransfer {
+    padding-bottom: 220px;
+  }
+}
