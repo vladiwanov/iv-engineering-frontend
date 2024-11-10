@@ -1,13 +1,14 @@
 {
   // "editor.fontFamily": "Space Mono for Powerline",
   // "editor.fontFamily": "Menlo",
-  // "editor.fontFamily": "Monaco",
-  "editor.fontFamily": "Fira Code Light",
+  "editor.fontFamily": "Monaco",
+  // "editor.fontFamily": "Fira Code Light",
   // "editor.fontFamily": "Styrene A Web",
   // "editor.fontFamily": "Space Mono for Powerline Menlo, Monaco, 'Courier New', monospace, Styrene A Web",
   "editor.fontLigatures": true,
   "files.autoSave": "onFocusChange",
   "editor.formatOnSave": true,
+  "workbench.sideBar.fonrFamiy":"Styrene A Web",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
@@ -20,5 +21,11 @@
     "borderWidth : 1px",
     "borderColor : {color}",
     "opacity: 0.5"
-  ]
+  ],
+  "diffEditor.hideUnchangedRegions.contextLineCount": 5,
+  "diffEditor.hideUnchangedRegions.minimumLineCount": 5,
+  "diffEditor.hideUnchangedRegions.revealLineCount": 40,
+  "customizeUI":{
+    "sideBar.fonrFamiy":"Styrene A Web Light",
+  }
 }
