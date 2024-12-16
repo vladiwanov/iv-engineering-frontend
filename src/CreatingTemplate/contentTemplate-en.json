@@ -1,0 +1,36 @@
+{
+  "head": "THIS IS GEAD OF NEW DIRECTION",
+  "pain": "this is a pain for new direction",
+  "subhead": [
+    "subhead1:",
+    " subhead2:"
+  ],
+  "solutions": [
+    "Solution1:",
+    "Solution2:",
+    "Solution3"
+  ],
+  "details": [
+    "head for details:",
+    "head 2 for details:"
+  ],
+  "context1": [
+    " - details content1",
+    " - details content2"
+  ],
+  "context2": [
+    " - content For Article-1",
+    " - content For Article-2",
+    " - content For Article-3",
+    " - content For Article-4"
+  ],
+  "context3": [
+    " - context1",
+    " - context2"
+  ],
+  "works": [
+    "works1",
+    "works2",
+    "works3"
+  ]
+}

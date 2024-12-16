@@ -1,3 +1,6 @@
+// import newDirectionContent from './CreatingTemplate/contentItemTemplate.json';
+// console.log("NEWDIRECTIONCONTENT::🔯::🕎::::💹:::".newDirectionContent);
+
 const routes = {
   main: '/',
   systems: '/systems/',
