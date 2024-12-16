@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router';
-import { Suspense, useCallback, useEffect, useState } from 'react';
+import { Suspense } from 'react';
 import routes from './routes';
 import componentsLoad from './componentsLoad';
 import getSubmitStatusSelector from './redux/submit/submit-selectors';
