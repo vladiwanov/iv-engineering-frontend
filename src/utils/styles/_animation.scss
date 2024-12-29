@@ -7,10 +7,12 @@
 }
 
 .active {
-  // animation: animate200 1000ms $timing-function forwards;
-  animation: animate100 800ms $timing-function forwards;
+  animation: animate200 1000ms $timing-function forwards;
 }
 
+.activeImg {
+  animation: animate300 1000ms $timing-function forwards;
+}
 
 .activeSlide1 {
   opacity: 1;
@@ -35,22 +37,17 @@
 @keyframes animate100 {
   0% {
     opacity: 0;
-    // transform: translateX(-100%);
-    transform: translateY(20%);
-    // transform: translate(10%, 10%);
+    transform: translateX(-100%);
   }
 
   30% {
     opacity: 0;
-    // transform: translateX(-100%);
-    transform: translateY(20%);
-    // transform: translate(10%, 10%);
+    transform: translateX(-100%);
   }
 
   100% {
     opacity: 1;
-    // transform: translateX(0);
-    transform: translate(0);
+    transform: translateX(0);
   }
 }
 
@@ -58,17 +55,38 @@
 @keyframes animate200 {
   0% {
     opacity: 0;
+    transform: translateY(20%);
   }
 
   25% {
     opacity: 0;
+    transform: translateY(20%);
   }
 
   100% {
     opacity: 1;
+    transform: translate(0);
   }
 }
 
+
+
+@keyframes animate300 {
+  0% {
+    opacity: 0;
+    transform: translateX(20%);
+  }
+
+  25% {
+    opacity: 0;
+    transform: translateX(20%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
 
 @keyframes animateSlide400 {
   0% {
