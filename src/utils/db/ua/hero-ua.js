@@ -8,7 +8,10 @@ const hero = {
       pathname: '/systems/information-systems',
       className: 'informationSystems',
       direction: 'information-systems',
-      content: ['передавання даних', 'інформаційна безпека'],
+      content: [
+        'передавання даних',
+        // 'інформаційна безпека'
+      ],
     },
     {
       id: 'hero2',
