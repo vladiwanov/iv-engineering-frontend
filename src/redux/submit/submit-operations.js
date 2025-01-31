@@ -1,5 +1,7 @@
 import axios from 'axios';
 import * as actions from './submit-actions';
+import serverAddr from './serverAddr';
+
 const {
   submitContactRequest,
   submitContactSuccess,
@@ -7,13 +9,10 @@ const {
   clearSubmitStatusAction,
 } = actions;
 
-axios.defaults.baseURL =
-  process.env.NODE_ENV === 'development'
-    ? 'http://localhost:3000/api/contacts'
-    : 'https://app.buddy.works/iv-en/iv-en-backend/api/contacts';
-// 'https://iv-engineering.herokuapp.com/api/contacts';
-// ('https://app.buddy.works/iv-en/iv-en-backend/api/contacts');
-// // 'https://iv-engineering.herokuapp.com/api/contacts';
+// submit address:
+serverAddr();
+axios.defaults.baseURL = `${serverAddr()}/contacts`;
+
 const addContact = contact => async dispatch => {
   const newContact = { ...contact, from: 'iv-engineering' };
   dispatch(submitContactRequest());
