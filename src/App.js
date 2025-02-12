@@ -48,7 +48,9 @@ const App = () => {
   return (
     <div style={styles}>
       {responseSubmit === 'success' && <SuccessSubmitPage />}
-      {responseSubmit === 'Network Error' && <ErrorSubmitPage />}
+      {responseSubmit === 'Request failed with status code 400' && (
+        <ErrorSubmitPage />
+      )}
       {responseSubmit === 'Loading' && (
         <div style={alarmStyles}>
           <h3>Server connection </h3>
