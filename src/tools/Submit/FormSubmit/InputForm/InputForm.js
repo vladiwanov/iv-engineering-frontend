@@ -26,6 +26,7 @@ export default function InputForm({ name, email, tel, handleChange }) {
             id={nameInputId}
             type="text"
             value={name}
+            maxlength="20"
             onChange={handleChange}
             // placeholder="name"
           />

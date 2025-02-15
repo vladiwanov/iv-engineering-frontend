@@ -45,12 +45,21 @@ const App = () => {
     margin: '150px auto',
     color: '#00BFFF',
   };
+
+  const submitStatus = () => {
+    if (
+      responseSubmit === 'Network Error' ||
+      responseSubmit === 'Request failed with status code 400'
+    ) {
+      return true;
+    }
+    return false;
+  };
+
   return (
     <div style={styles}>
       {responseSubmit === 'success' && <SuccessSubmitPage />}
-      {responseSubmit === 'Request failed with status code 400' && (
-        <ErrorSubmitPage />
-      )}
+      {submitStatus() && <ErrorSubmitPage />}
       {responseSubmit === 'Loading' && (
         <div style={alarmStyles}>
           <h3>Server connection </h3>
