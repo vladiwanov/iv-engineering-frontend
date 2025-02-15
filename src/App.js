@@ -58,8 +58,8 @@ const App = () => {
 
   return (
     <div style={styles}>
-      {responseSubmit === 'success' && <SuccessSubmitPage />}
       {submitStatus() && <ErrorSubmitPage />}
+      {responseSubmit === 'success' && <SuccessSubmitPage />}
       {responseSubmit === 'Loading' && (
         <div style={alarmStyles}>
           <h3>Server connection </h3>
