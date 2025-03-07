@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/iv-engineering-frontend.iml" filepath="$PROJECT_DIR$/.idea/iv-engineering-frontend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/iven-f.iml" filepath="$PROJECT_DIR$/.idea/iven-f.iml" />
     </modules>
   </component>
 </project>
