@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053b02c7-cfab-42f1-aa15-f34251b3b4ee" name="Changes" comment="added phone number to contacts in footer">
-      <change afterPath="$PROJECT_DIR$/src/utils/db/en/contactUs-en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/db/ua/contactUs-ua.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/additional-components/LanguageContentSelector/LanguageContentSelector.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/additional-components/LanguageContentSelector/LanguageContentSelector.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content-components/Contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content-components/Contacts/Contacts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content-components/Contacts/Contacts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/content-components/Contacts/Contacts.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tools/Submit/SubmitButton/SubmitButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tools/Submit/SubmitButton/SubmitButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/db/en/footer-en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/db/en/footer-en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/styles/icon-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/styles/icon-style.scss" afterDir="false" />
-    </list>
+    <list default="true" id="053b02c7-cfab-42f1-aa15-f34251b3b4ee" name="Changes" comment="hidded submit button" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +78,7 @@
       <workItem from="1741369582175" duration="454000" />
       <workItem from="1741370047735" duration="34000" />
       <workItem from="1741370289049" duration="576000" />
-      <workItem from="1741379273251" duration="3318000" />
+      <workItem from="1741379273251" duration="3952000" />
     </task>
     <task id="LOCAL-00001" summary="added phone number to contacts in footer">
       <option name="closed" value="true" />
@@ -98,7 +88,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741305471093</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="hidded submit button">
+      <option name="closed" value="true" />
+      <created>1741413579711</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741413579712</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,7 +104,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added phone number to contacts in footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="added phone number to contacts in footer" />
+    <MESSAGE value="hidded submit button" />
+    <option name="LAST_COMMIT_MESSAGE" value="hidded submit button" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
