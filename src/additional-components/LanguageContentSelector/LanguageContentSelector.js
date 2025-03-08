@@ -50,6 +50,7 @@ import footerEn from 'utils/db/en/footer-en.json';
 import electricEn from 'utils/db/en/electric-en.js';
 import metalglasEn from 'utils/db/en/metalglas-en.js';
 import windowsEn from 'utils/db/en/windows-en.js';
+import contactUsEn from 'utils/db/en/contactUs-en.json'
 
 // import heroUa from 'utils/db/ua/hero-ua.json';
 import heroUa from 'utils/db/ua/hero-ua.js';
@@ -79,6 +80,7 @@ import lightingUa from 'utils/db/ua/lighting-ua.json';
 import electricUa from 'utils/db/ua/electric-ua.js';
 import metalglasUa from 'utils/db/ua/metalglas-ua.js';
 import windowsUa from 'utils/db/ua/windows-ua.js';
+import contactUsUa from 'utils/db/ua/contactUs-ua.json'
 // import metalglas from 'utils/db/ua/metalglas-ua.js';
 
 const LangContentSelector = currentLanguage => {
@@ -134,6 +136,7 @@ const LangContentSelector = currentLanguage => {
     electric: electricEn,
     metalglas: metalglasEn,
     windows: windowsEn,
+    contactUs:contactUsEn,
   };
   const ua = {
     hero: heroUa,
@@ -162,6 +165,7 @@ const LangContentSelector = currentLanguage => {
     electric: electricUa,
     metalglas: metalglasUa,
     windows: windowsUa,
+    contactUs:contactUsUa,
   };
   switch (currentLanguage) {
     // case 'RU':

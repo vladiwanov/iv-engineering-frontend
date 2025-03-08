@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="053b02c7-cfab-42f1-aa15-f34251b3b4ee" name="Changes" comment="added phone number to contacts in footer">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/iv-engineering-frontend.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/styles/_contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/styles/_contacts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/db/en/contactUs-en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/db/ua/contactUs-ua.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/additional-components/LanguageContentSelector/LanguageContentSelector.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/additional-components/LanguageContentSelector/LanguageContentSelector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content-components/Contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content-components/Contacts/Contacts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content-components/Contacts/Contacts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/content-components/Contacts/Contacts.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/Submit/SubmitButton/SubmitButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tools/Submit/SubmitButton/SubmitButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/db/en/footer-en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/db/en/footer-en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/styles/icon-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/styles/icon-style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,18 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "vladiwanov"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;vladiwanov&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/vladiwanov/iv-engineering-frontend.git",
-    "accountId": "27a4247a-eb27-4200-a834-2df990a18f72"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/vladiwanov/iv-engineering-frontend.git&quot;,
+    &quot;accountId&quot;: &quot;27a4247a-eb27-4200-a834-2df990a18f72&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -49,16 +49,23 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Volumes/VIDATA/DOCS/SoftDev/iven-f",
+    "last_opened_file_path": "/Volumes/VIDATA/DOCS/SoftDev/iven-f/src/utils/db/en",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.editor",
+    "prettierjs.PrettierConfiguration.Package": "/Volumes/VIDATA/DOCS/SoftDev/iven-f/node_modules/prettier",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Font",
+    "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/utils/db/en" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -77,6 +84,11 @@
       <updated>1741302312735</updated>
       <workItem from="1741302314260" duration="28000" />
       <workItem from="1741302349286" duration="3062000" />
+      <workItem from="1741359376445" duration="3122000" />
+      <workItem from="1741369582175" duration="454000" />
+      <workItem from="1741370047735" duration="34000" />
+      <workItem from="1741370289049" duration="576000" />
+      <workItem from="1741379273251" duration="3318000" />
     </task>
     <task id="LOCAL-00001" summary="added phone number to contacts in footer">
       <option name="closed" value="true" />
@@ -95,6 +107,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added phone number to contacts in footer" />
     <option name="LAST_COMMIT_MESSAGE" value="added phone number to contacts in footer" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/additional-components/LanguageContentSelector/LanguageContentSelector.js</url>
+          <line>57</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
