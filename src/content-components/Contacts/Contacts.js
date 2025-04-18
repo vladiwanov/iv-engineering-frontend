@@ -11,7 +11,7 @@ export default function Contacts() {
   const currentLanguage = useSelector(getLanguageMemoised);
   const { footer, contactUs } = LanguageContentSelector(currentLanguage);
 
-  console.log('CONTACT_US::::::::::', contactUs);
+  // console.log('CONTACT_US::::::::::', contactUs);
 
   useEffect(() => {
     io('contacts', '0px', s.contactsAnimation);
